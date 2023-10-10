@@ -1,0 +1,53 @@
+#header {
+  color: orange;
+  background-color: navy;
+ 
+  height: 25%;
+  font-size: 3vh;
+  padding-left: 70px;
+  position: relative; /* Make the header a positioning context */
+}
+
+body{
+padding:20px;}
+
+#parent {
+  display: flex;
+}
+
+#child1 {
+  width: 70%;
+}
+
+#child2 {
+  width: 30%;
+  position: relative; /* Make the child2 a positioning context */
+  background-color:orange;
+  height:800px;
+  padding:5px;
+}
+
+#boy {
+  border-radius: 50%;
+  position: absolute;
+  top: -70px; /* Adjust this value to overlap as desired */
+  left: -38px; /* Adjust this value to overlap as desired */
+}
+
+#contact{
+  font-size:20px;
+}
+
+#headings{
+  color: navy;
+}
+
+hr{
+  width:70%;
+  height:3px;
+  color:orange;
+  border: 1px solid orange;
+  background-color:orange;
+}
+
+  
